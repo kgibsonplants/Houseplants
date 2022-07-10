@@ -1,0 +1,48 @@
+h1 {
+	font-family: arial;
+	font-size: 50px;
+	color: white;
+}
+
+h2 {
+	font-family: arial;
+	text-indent: 8px;
+}
+
+p {
+	font-family: arial;
+}
+
+li {
+	font-family: arial;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+
+}
+
+.container {
+     position: relative;
+     text-align: center;
+}
+
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.tagline {
+	font-family: arial;
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+@media (min-width: 1000px) {
+	h1 { font-size: 100px;
+	}
+}
