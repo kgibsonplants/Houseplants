@@ -1,21 +1,26 @@
 h1 {
 	font-family: serif;
 	font-size: 60px;
+	color: white;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 28px;
+	text-align: center;
 	color: #B2D1CB;
 }
 
 li {
 	font-family: sans-serif;
-	color: #B2D1CB;
+	color: white;
 }
 
 th {
 	font-family: sans-serif;
 	font-size: 28px;
 	text-align: left;
-	text-indent: 25px;
-	color: #27B899;
-	vertical-align: bottom;
+	color: #B2D1CB;
 }
 
 table {
@@ -26,6 +31,30 @@ table {
 
 body { 
 	background-color: #00211A;
+}
+
+nav {
+	text-align: center;
+}
+
+a {
+	font-family: sans-serif;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #B2D1CB;
+}
+
+a:hover {
+  color: #E317B5;
+}
+
+a:active {
+  color: #E317B5;
 }
 
 .responsive {
@@ -50,10 +79,27 @@ body {
 	font-family: sans-serif;
 	font-size: 20px;
 	font-style: italic;
-	color: #27B899;
+	color: #B2D1CB;
 }
 
 @media (min-width: 900px) {
 	h1 {font-size: 120px;
 	}
+}
+
+.light {
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	max-width: 200px;
+	word-wrap: break-word;
+}
+
+.sunlevel {
+	text-align: center;
+}
+
+.sunicon {
+    margin-left: auto;
+    margin-right: auto;
 }
