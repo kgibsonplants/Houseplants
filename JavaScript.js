@@ -1,5 +1,11 @@
-//home button
+//return to quiz
 const toHome = () => window.location.href='Quiz.html';
+
+//return to guide 
+const toGuide = () => window.location.href='Houseplants.html';
+
+//return to top
+const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'}); 
 
 //calculate user results
 function result(){
@@ -18,7 +24,3 @@ function result(){
     else if (document.getElementById('someSun').checked && document.getElementById('noPets').checked) {
       window.location.href='Pothos.html';    
     }}
-
-
-    /* take user back to top
-const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'}); */

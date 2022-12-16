@@ -1,106 +1,125 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
   <title>Houseplants</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="houseplantstyle.css">
+  <script src="JavaScript.js"></script>
+
 </head>
+
 <body>
 
-<div class="banner"> <!-- Banner -->
-  <img src="banner.png" alt="assorted houseplants" class="responsive">
-  <div class="center">
-    <h1>Houseplants</h1>
-    <p class="tagline">A guide to my current plant friends.</p>
+<!-- Banner -->
+  <div class="banner"> 
+    <img src="banner.png" alt="assorted houseplants" class="responsive">
+    <div class="center">
+      <h1>Houseplants</h1>
+      <p class="tagline">A guide to my current plants.</p>
+    </div>
   </div>
-</div>
 
-<nav> <!-- Links -->
-  <p><a href="resources.html">Resources</a></p>
-  <p><a href="Quiz.html">Quiz</a></p>
-</nav>
+<!-- Button for quiz -->
+  <button class="button" onclick="toHome()">Take the Quiz</button>
 
-<table> <!-- Plant Table Begins Here -->
-  <tr> <!-- African Violets -->
-    <td rowspan="3"><img src="africanviolet.png" alt="two african violet plants in terracotta planters" width="200" height="200"></td>
-  </tr>
-  <tr>
-    <th>African Violets</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><b>Sun:</b> Indirect</li>
-        <li><b>Water:</b> When top of soil is dry</li>
-        <li><b>Humidity:</b> Add humidifier in winter </li>
-        <li><b>Pet-Safe:</b> Yes</li>
-      </ul>
-    </td>
-  </tr>
-  <tr> <!-- Cast Iron Plant -->
-    <td rowspan="3"><img src="castiron.png" alt="a cast iron plant in a terra cotta planter" width="200" height="200"></td>
-  </tr>
-  <tr>
-    <th>Cast Iron Plant</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><b>Sun:</b> Indirect</li>
-        <li><b>Water:</b> When top two inches of soil are dry</li>
-        <li><b>Humidity:</b> Add humidifier in winter </li>
-        <li><b>Pet-Safe:</b> Yes</li>
-      </ul>
-    </td>
-  </tr>
-  <tr> <!-- Jade -->
-    <td rowspan="3"><img src="jade.png" alt="a jade plant in a white ceramic planter" width="200" height="200"></td>
-  </tr>
-  <tr>
-    <th>Jade</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><b>Sun:</b> Direct</li>
-        <li><b>Water:</b> When leaves begin to wrinkle</li>
-        <li><b>Humidity:</b> Tolerates dry air</li>
-        <li><b>Pet-Safe:</b> No</li>
-      </ul>
-    </td>
-  </tr>
-  <tr> <!-- Panda Plant -->
-    <td rowspan="3"><img src="panda.png" alt="a panda plant in front of a black background" width="200" height="200"></td>
-  </tr>
-  <tr>
-    <th>Panda Plant</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><b>Sun:</b> Direct</li>
-        <li><b>Water:</b> Sparingly, but deeply</li>
-        <li><b>Humidity:</b> Tolerates dry air</li>
-        <li><b>Pet-Safe:</b> No</li>
-      </ul>
-    </td>
-  </tr>
-  <tr> <!-- Pothos -->
-    <td rowspan="3"><img src="pothos.png" alt="a pothos plant in a gold planter on an end table" width="200" height="200"></td>
-  </tr>
-  <tr>
-    <th>Pothos</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><b>Sun:</b> Indirect</li>
-        <li><b>Water:</b> When leaves begin to wilt</li>
-        <li><b>Humidity:</b> Tolerates dry air</li>
-        <li><b>Pet-Safe:</b> No</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- Plant Table Begins Here -->
+  <table> 
+
+<!-- African Violets -->
+    <tr> 
+      <td rowspan="3"><img src="africanviolet.png" alt="two african violet plants in terracotta planters" width="200" height="200"></td>
+    </tr>
+    <tr>
+      <th>African Violets</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Sun:</b> Indirect</li>
+          <li><b>Water:</b> When top of soil is dry</li>
+          <li><b>Humidity:</b> Add humidifier in winter </li>
+          <li><b>Pet-Safe:</b> Yes</li>
+        </ul>
+      </td>
+    </tr>
+
+<!-- Cast Iron Plant -->
+    <tr>
+      <td rowspan="3"><img src="castiron.png" alt="a cast iron plant in a terra cotta planter" width="200" height="200"></td>
+    </tr>
+    <tr>
+      <th>Cast Iron Plant</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Sun:</b> Indirect</li>
+          <li><b>Water:</b> When top two inches of soil are dry</li>
+          <li><b>Humidity:</b> Add humidifier in winter </li>
+          <li><b>Pet-Safe:</b> Yes</li>
+        </ul>
+      </td>
+    </tr>
+
+<!-- Jade -->
+    <tr> 
+      <td rowspan="3"><img src="jade.png" alt="a jade plant in a white ceramic planter" width="200" height="200"></td>
+    </tr>
+    <tr>
+      <th>Jade</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Sun:</b> Direct</li>
+          <li><b>Water:</b> When leaves begin to wrinkle</li>
+          <li><b>Humidity:</b> Tolerates dry air</li>
+          <li><b>Pet-Safe:</b> No</li>
+        </ul>
+      </td>
+    </tr>
+
+<!-- Panda Plant -->
+    <tr> 
+      <td rowspan="3"><img src="panda.png" alt="a panda plant in front of a black background" width="200" height="200"></td>
+    </tr>
+    <tr>
+      <th>Panda Plant</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Sun:</b> Direct</li>
+          <li><b>Water:</b> Sparingly, but deeply</li>
+          <li><b>Humidity:</b> Tolerates dry air</li>
+          <li><b>Pet-Safe:</b> No</li>
+        </ul>
+      </td>
+    </tr>
+
+<!-- Pothos -->
+    <tr> 
+      <td rowspan="3"><img src="pothos.png" alt="a pothos plant in a gold planter on an end table" width="200" height="200"></td>
+    </tr>
+    <tr>
+      <th>Pothos</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><b>Sun:</b> Indirect</li>
+          <li><b>Water:</b> When leaves begin to wilt</li>
+          <li><b>Humidity:</b> Tolerates dry air</li>
+          <li><b>Pet-Safe:</b> No</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Return to Top -->
+  <button class="button" onclick="toTop()">Return to Top</button>
 
 </body>
+
 </html>
